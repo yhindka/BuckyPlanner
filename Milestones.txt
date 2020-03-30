@@ -1,0 +1,30 @@
+Here is a list of milestones that can be completed independently:
+
+1. The Task class can be implemented and tested indepedently of the other
+classes. It will define a Task object that will be instantiated every time the
+user creates a new Task. Each Task will have fields that allow the start and
+end time to be set, as well as the name of the class, priority, and a boolean
+that is false if the task is not yet complete. 
+
+2. A generic ArrayList<K> interface can also be designed, if the team deems it
+necessary. However, Java's ArrayList class can also be imported and used here.
+
+3. A ToDoList<Task> class can also be designed independently. It will use the
+generic ArrayList interface implemented in the previous step. The ToDoList
+class should store 2 generic ArrayLists, each of type Task. One will store a
+list of tasks to be completed, and the other will store a list of complete
+tasks.
+
+Once the above are completed, the following can be implemented:
+
+The Student class can be designed using the objects defined in the previous
+steps. Multiple Student objects will correspond to multiple users, and the 
+program will have separate Planners for each of them. Each Student will have
+an instance of the ToDoList<Task> class that will allow the Student to add and
+remove tasks, as well as mark them as complete.
+
+From here, the GUI can be completed. This will make the program more
+user-friendly and increase its curb-appeal. Once the GUI has been made, the
+final milestone, completion of the program, will be reached.
+
+
